@@ -1,5 +1,5 @@
 # 打开文件
-# f = open("test.txt", "r", encoding="UTF-8")
+# f = open("data.txt", "r", encoding="UTF-8")
 # print(type(f))
 # 读取文件 - read()
 # print(f"读取10个字节的结果：{f.read(10)}")
@@ -23,7 +23,7 @@ print("--------------------------------------")
 #
 # f.close()
 
-# with open("test.txt", "r", encoding="UTF-8") as f:
+# with open("data.txt", "r", encoding="UTF-8") as f:
 #     for line in f:
 #         print(line)
 
