@@ -1,6 +1,6 @@
 from datetime import datetime
-from pydantic import BaseModel
 from typing import List, Optional
+from pydantic import BaseModel
 
 class User(BaseModel):
     id: int # 必填字段
