@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 from fastapi.staticfiles import StaticFiles
-
-from jwt.fastapi_jwt import fastapi_jwt_url
+from tutorial import app03
 
 
 app = FastAPI(
@@ -13,7 +12,8 @@ app = FastAPI(
 
 app.mount("/static", StaticFiles(directory="./static"))
 
-app.include_router(fastapi_jwt_url, prefix="/jwt", tags=['fast api demo'])
+app.include_router(app03, prefix="/chapter03", tags=['第三章 请求参数和验证'])
+
 
 if __name__ == '__main__':
-    uvicorn.run("application:app", port=8080, reload=True)
+    uvicorn.run("application:app", host="0.0.0.0", port=8080, reload=True, workers=5)
