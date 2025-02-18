@@ -1,9 +1,9 @@
 from volcenginesdkarkruntime import Ark
 
 def chat_dance():
-    client = Ark(api_key='cab8d914-7e4d-42dc-9ee6-edecbd9660f3')
+    client = Ark(api_key='your key')
     response = client.chat.completions.create(
-        model="ep-20250218151831-5wds7",
+        model="your model",
         messages=[
             {
                 "role": "user",
