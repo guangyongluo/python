@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastAPI import FastAPI
 import uvicorn
-from fastapi.staticfiles import StaticFiles
+from fastAPI.staticfiles import StaticFiles
 from tutorial import app03
 
 

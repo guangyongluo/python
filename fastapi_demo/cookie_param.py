@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastAPI import FastAPI
 import uvicorn
-from fastapi.params import Cookie
+from fastAPI.params import Cookie
 
 app = FastAPI()
 

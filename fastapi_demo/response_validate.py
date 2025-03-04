@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastAPI import FastAPI
 import uvicorn
 from pydantic import BaseModel
 from starlette.responses import Response, JSONResponse

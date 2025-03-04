@@ -1,5 +1,5 @@
 import os
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastAPI import FastAPI, File, UploadFile, HTTPException
 import uvicorn
 
 app = FastAPI()
