@@ -1,6 +1,6 @@
 from datetime import date
 
-from fastAPI import FastAPI, Body
+from fastapi import FastAPI, Body
 from pydantic import BaseModel
 import uvicorn
 from pydantic.fields import Field
