@@ -1,8 +1,8 @@
 from typing import Union
 
-from fastAPI import FastAPI
+from fastapi import FastAPI
 import uvicorn
-from fastAPI.params import Query
+from fastapi.params import Query
 
 app = FastAPI()
 

@@ -1,4 +1,4 @@
-from fastAPI import FastAPI, Header
+from fastapi import FastAPI, Header
 import uvicorn
 from setuptools.command.alias import alias
 
