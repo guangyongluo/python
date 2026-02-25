@@ -16,7 +16,7 @@ match day:
         print("今天是星期六")
     case 7:
         print("今天是星期日")
-    case _:
+    case _: # 匹配其他所有的情况
         print("输入的数字不合法，请输入1-7之间的数字")
 
 
