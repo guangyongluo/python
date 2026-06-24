@@ -11,7 +11,26 @@ print(type(None))
 num = -100
 print(type(num))
 
-print(isinstance(num, int))\
+print(isinstance(num, int))
+print(isinstance(num, float))
+print(isinstance(num, complex))
+
+s1 = "Hello World"
+s2 = 'Hello World'
+s3 = """
+尊敬的客户：
+    感谢您选择我们公司的产品。
+    我们将会为您服务。
+"""
+
+s4 = 'It\'s very interesting'
+s5 = "It's very interesting"
+
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+print(s5)
 
 # 字符串拼接
 s1 = "人生苦短" "我用Python"

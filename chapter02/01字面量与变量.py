@@ -22,3 +22,11 @@ print(num)
 num = True
 print(num)
 
+base = 20.7 # 基础播放量
+incr = 50 # 每一个月的新增播放量
+print("未来第一个月的播放总量：", base + incr)
+print("未来第二个月的播放总量：", base + incr * 2)
+
+# 一次性定义多个变量
+base, incr = 1, 2
+
