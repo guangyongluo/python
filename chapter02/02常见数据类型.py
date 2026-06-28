@@ -26,11 +26,14 @@ s3 = """
 s4 = 'It\'s very interesting'
 s5 = "It's very interesting"
 
+s6 = "欢迎大家进入到python课堂学习！\n大家记得一键三连哦~"
+
 print(s1)
 print(s2)
 print(s3)
 print(s4)
 print(s5)
+print(s6)
 
 # 字符串拼接
 s1 = "人生苦短" "我用Python"
