@@ -39,3 +39,11 @@ match operator:
     case _:
         print("不支持的运算符")
 
+total = 0
+i = 0
+while i <= 100:
+    if i % 2 == 0:
+      total += i
+    i += 1
+
+print(f"1~100内所有偶数之和为：{total}")
