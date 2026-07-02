@@ -88,3 +88,5 @@ for student in all_students:
     if student in art_students:
         count += 1
     print(f"{student}选修了{count}门课程")
+
+    s = set()

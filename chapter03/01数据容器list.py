@@ -1,5 +1,6 @@
 #定义列表
 l = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+list1 = list()
 
 # 切面操作
 print(l[0:5:1]) # 从索引0开始，切到索引3（不包含3）
@@ -36,6 +37,9 @@ num_list1 = [32, 88, 56, 90, 88]
 num_list2 = [65, 88, 100, 209, 32]
 
 num_list = num_list1 + num_list2
+
+new_num_list = [*num_list1, *num_list2]
+print(new_num_list)
 
 new_list = []
 for num in num_list:

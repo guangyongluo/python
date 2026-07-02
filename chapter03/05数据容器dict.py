@@ -115,3 +115,5 @@ while True:
             break
         case "_": # 匹配其他所有的情况
             print("输入的功能编号不合法，请输入1-5之间的数字")
+
+dict1 = dict()
