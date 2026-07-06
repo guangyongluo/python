@@ -14,7 +14,7 @@ def factorial(n):
     1. 优惠券需要商品金额满5000才可以使用，且优惠券的金额不能超过商品总金额
     2. 积分抵扣需要商品金额满5000才可以使用，100积分抵扣1元，且积分抵扣的金额不能超过商品总金额，积分只能整百抵扣。
 """
-def calculate_order_cost(*goods, coupon=0, points=0, express=0.0):
+def calculate_order_cost(*goods:tuple[str, float, int], coupon=0, points=0, express=0.0) -> float:
     """
     计算订单总金额的函数
     :param items: 商品信息列表，每个元素是一个包含商品名、价格、数量的字典

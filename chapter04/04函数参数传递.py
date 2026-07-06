@@ -51,4 +51,10 @@ print(calc_data(2,7,9,10,45, round=2))
 
 print(calc_data(2,7,9,10, round=2, print=True))
 
+def a(a, b, *args, **kwargs):
+    a = 1
+    b = 2
+    print(a + b)
+
+a(1, 2)
 

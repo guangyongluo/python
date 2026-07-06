@@ -14,6 +14,10 @@ def circle_area(radius):
     print("在函数内部访问全局变量num的值是：", num)  # 在函数内部访问全局变量
     return area
 
+# 定义一个函数，根据传入的底和高计算三角形的面积
+def triangle_area(base, side):
+    return base * side / 2
+
 c_area = circle_area(num)
 print(c_area)
 
