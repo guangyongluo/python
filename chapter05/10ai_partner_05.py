@@ -133,7 +133,7 @@ with st.sidebar:
                 load_session(session)
                 st.rerun()
         with opt:
-            if st.button("", key=f"session_{session}", width="stretch", icon="🗑️"):
+            if st.button("", key=f"delete_{session}", width="stretch", icon="🗑️"):
                 delete_session(session)
                 st.rerun()
 
